@@ -114,3 +114,28 @@ while(decision == ""):
 print()
 time.sleep(1)
 #            ---section end---           #
+
+#   ---Section Author: <John Yoon>--- #
+print:("There a person screaming for help")
+print:("You found a child screaming")
+print("1. Help the child")
+print("2. Avoid the child")
+print()
+decision = ""
+while(decision == ""):
+    decision = input("Pick a number: ")
+    print()
+    if (decision == "1"):
+        print("You went with the child and got attacked")
+        player_health -= 10
+        print("Your health now:")
+        print(player_health)
+    elif (decision == "2"):
+        print("You left the crying child alone")
+        print("You are a terrible person and took a health hit")
+        player_health -= 15
+        print("Your health now:")
+        print(player_health)
+print()
+time.sleep(1)
+#            ---section end---           #
